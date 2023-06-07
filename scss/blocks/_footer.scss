@@ -1,0 +1,51 @@
+.footer{
+    margin-top: 75px;
+    color: white;
+    background-color: black;
+
+    a{
+        color: white
+    }
+}
+
+.footer__row{
+    padding: 59px 0px 22px 0px;
+    display: flex;
+    column-gap: 63px;
+    border-bottom: 1px solid white;
+}
+
+.footer__title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer__list{
+    line-height: 28px;
+}
+
+.footer__form{
+    display: flex;
+    flex-direction: column;
+
+
+    input{
+        width: 324px;
+        height: 35px;
+        border-bottom: 1px solid white;
+    }
+
+    button{
+        margin-top: 14px;
+        border: 1px solid white;
+        width: 151px;
+        line-height: 36px;
+    }
+}
+
+.feedback{
+   display: flex;
+   justify-content: center;
+   padding: 12px 0px 10px 0px;
+}

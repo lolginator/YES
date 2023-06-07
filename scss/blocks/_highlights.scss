@@ -1,0 +1,27 @@
+.highlights__title{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+}
+
+.highlights__text{
+    max-width: 560px;
+}
+
+.highlights__content{
+    padding: 119px 0px 0px 127px;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    align-items: center;
+}
+
+.highlights__cards{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card img{
+    width:375px;
+    height: 455px;
+}

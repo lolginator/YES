@@ -1,0 +1,26 @@
+.benefits__object{
+    display: flex;
+    column-gap: 14px;
+}
+
+.benefits__title{
+    color: $color-3;
+}
+
+.benefits__text{
+    font-weight: 600;
+}
+
+.benefits__row-1{
+    display: flex;
+    column-gap: 115px;
+    padding-bottom: 31px;
+    border-bottom: 1px solid $color-2;
+    width: 445px;
+}
+
+.benefits__row-2{
+    display: flex;
+    column-gap: 115px;
+    padding-top: 31px;
+}

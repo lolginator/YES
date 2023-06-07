@@ -1,0 +1,36 @@
+.team__row{
+    display: flex;
+    column-gap: 61px;
+}
+
+.form__title{
+    max-width: 392px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 49px;
+    margin-bottom: 24px;
+}
+
+
+.form__content{
+    display: grid;
+    row-gap: 15px;
+    position: relative;
+
+    input{
+        border-bottom: 1px solid $color-3;
+        height: 51px;
+    }
+
+
+    button{
+        display: flex;
+        margin-top: 23px;
+        border: 1px solid #000000;
+        width: 186px;
+        line-height: 49px;
+        padding-left: 70px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}

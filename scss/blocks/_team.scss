@@ -1,0 +1,43 @@
+.team__header{
+    display: inline-block;
+}
+
+.team{
+    padding-top: 50px;
+}
+
+
+.team__title{
+    margin-bottom: 50px;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+
+.team__header-row{
+    display: flex;
+    column-gap: 50px;
+}
+
+
+
+.team__object{
+    position: relative;
+    text-align: center;
+}
+
+.team__object-info{
+    position: absolute;
+    bottom: 26px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 240px;
+    height: 74px;
+    background-color: white;
+}
+
+.team__object-title{
+    padding: 14px 0px 0px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}

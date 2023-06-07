@@ -1,0 +1,43 @@
+.amenities{
+    margin-top: 67px;
+    padding: 50px;
+    color: white;
+    background-color: black;
+}
+
+.amenities__object{
+    line-height: 31px;
+}
+
+.amenities__title{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+}
+
+.amenities__text{
+    max-width: 443px;
+    padding: 24px 0px;
+}
+
+.amenities__info{
+    width: 445px;
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+}
+
+.amenities__row{
+    display: grid;
+    row-gap: 18px;
+}
+
+.amenities__img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 620px;
+    height: 440px;
+    background: url("./../images/villa.png");
+    background-size: cover;
+    background-position: center;
+}
